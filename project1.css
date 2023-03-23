@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(40,44,55);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 80vh;
+}
+
+
+.card-container{
+    width: 180px;
+    height: 260px;
+    border-radius: 8px 8px;
+    margin-left: 8px;
+}
+
+.card img{
+    width: 180px;
+    height: 250px;
+    border-radius: 8px 8px 0px 0px;
+    display: block;
+}
+
+.card-container:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+    transition: 400ms ;
+    scale: 105%;
+    
+}
+
+.title{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.title:hover{
+    color: rgb(255, 208, 0);
+}
+#rating {
+   display: flex;
+   align-items: flex-end;
+
+}
+
+
+.material-symbols-outlined{
+    color: yellow;
+    margin-bottom: -3px;
+
+}
+
+.info{
+    color: white;
+    background-color:#1F232C;
+    border-radius: 0px 0px 8px 8px;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.bottom{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.runtime{
+   margin-right: -32px;
+} 
+   
